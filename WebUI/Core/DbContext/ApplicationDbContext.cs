@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using WebUI.Core.Entities;
 
-namespace WebUI.Core.Dtos
+namespace WebUI.Core.DbContext
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
