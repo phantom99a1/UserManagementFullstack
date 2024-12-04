@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Users Management Fullstack\\WebUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E34E3773-819B-4BD4-8031-301E008A7683}|WebUI.csproj|d:\\users management fullstack\\webui\\core\\services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34E3773-819B-4BD4-8031-301E008A7683}|WebUI.csproj|solutionrelative:core\\services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E34E3773-819B-4BD4-8031-301E008A7683}|WebUI.csproj|d:\\users management fullstack\\webui\\core\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34E3773-819B-4BD4-8031-301E008A7683}|WebUI.csproj|solutionrelative:core\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34E3773-819B-4BD4-8031-301E008A7683}|WebUI.csproj|d:\\users management fullstack\\webui\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34E3773-819B-4BD4-8031-301E008A7683}|WebUI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -87,27 +87,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LogService.cs",
-              "DocumentMoniker": "D:\\Users Management Fullstack\\WebUI\\Core\\Services\\LogService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\LogService.cs",
-              "ToolTip": "D:\\Users Management Fullstack\\WebUI\\Core\\Services\\LogService.cs",
-              "RelativeToolTip": "Core\\Services\\LogService.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwA4AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T07:56:28.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\Users Management Fullstack\\WebUI\\Core\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Core\\Services\\AuthService.cs",
               "ToolTip": "D:\\Users Management Fullstack\\WebUI\\Core\\Services\\AuthService.cs",
               "RelativeToolTip": "Core\\Services\\AuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAWwFMAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T07:56:10.515Z"
+              "WhenOpened": "2024-12-04T14:46:54.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Users Management Fullstack\\WebUI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Users Management Fullstack\\WebUI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T14:41:26.218Z",
+              "EditorCaption": ""
             }
           ]
         }

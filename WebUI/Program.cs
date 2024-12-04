@@ -6,6 +6,9 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 using System.Text.Json.Serialization;
 using WebUI.Core.DbContext;
+using WebUI.Core.Entities;
+using WebUI.Core.Interfaces;
+using WebUI.Core.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,10 +29,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 
 //DI
-
+builder.Services.AddScoped<ILogService, LogService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IMessageService, MessageService>();
 
 //Add Identity
-builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
@@ -107,6 +112,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors(options =>
+{
+    options
+    .AllowAnyHeader()
+    .AllowAnyMethod()
+    .AllowAnyOrigin();
+});
 
 app.UseHttpsRedirection();
 
